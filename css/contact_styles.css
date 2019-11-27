@@ -1,0 +1,84 @@
+* {
+	box-sizing:border-box;
+}
+body {
+	background: url(../img/aurora-min.jpg) no-repeat center fixed; 
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 18px;
+	color:white;
+}
+
+.navigation {
+    width: 100%;
+	background-color: black;
+	position: fixed;
+	top:0;
+	padding:10px 10px 5px;
+}
+
+.navigation ul{
+	float:right;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.navigation li{
+	display: inline-block;
+	font-size: 20px;	
+}
+
+.navigation ul li a{
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-decoration: none;
+	color: white;
+}
+
+.navigation a:hover {
+	color: #2E4272;
+	text-decoration: none;
+	transition:color 600ms;
+}
+
+.header h1 {
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 3em;
+	color:white;
+	margin-top: 55px;
+}
+
+ .main p {
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 2em;
+	color:white;
+}
+
+.contact_info {
+	text-align: center;
+}
+
+.contact_info li{
+	display: inline-block;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 2em;
+	color:white;
+}
+
+.Facebook {
+	padding-right: 50px;
+}
+
+.glyphiconglyphicon-earphone li:hover {
+	transition:color 600ms;
+}
+@media (max-width: 480px) {
+	body {
+		background-image: none;
+		color: white;
+		background-color: #181A1F;

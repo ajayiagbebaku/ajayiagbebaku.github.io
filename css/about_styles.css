@@ -1,0 +1,139 @@
+* {
+	box-sizing:border-box;
+}
+body {
+	background: url(../img/sf-min.jpg) no-repeat center fixed; 
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 18px;
+	color:white;
+}
+.navigation {
+    width: 100%;
+	background-color: black;
+	position: fixed;
+	top:0;
+	padding:10px 10px 5px;
+}
+
+.navigation ul{
+	float:right;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.navigation li{
+	display: inline-block;
+	font-size: 20px;
+	color:white;
+}
+
+.navigation ul li a{
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-decoration: none;
+	color:white;
+}
+
+.navigation a:hover {
+	color: #2E4272;
+	text-decoration: none;
+	transition:color 600ms;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+.main {
+	text-align: center;
+}
+
+.header h1 {
+	text-align: center;
+	margin-top: 50px;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 6em;
+	color: white;
+}
+.header h2 {
+	color: white;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+ .image{
+	display: inline-block;
+}
+.column{
+	display: inline-block;
+	float: left;
+	width: 25%;
+}
+
+.main_text {
+	clear:both;
+	padding-top: 60px;
+	margin-bottom: 30px;
+	font-family: 'Shadows Into Light', cursive;
+	width: 100%;
+}
+.main_text p{
+	font-family: 'Shadows Into Light', cursive;
+}
+
+#skill_list {
+	margin-left: -30px;
+	font-family: 'Shadows Into Light', cursive;
+	list-style-type: none;
+}
+
+/*Typography*/
+h1 {
+	font-family: 'Shadows Into Light', cursive;
+	font-size:4em;
+
+}
+h2,
+h3
+ {
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.intro p {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 2em;
+	font-weight: 100;
+}
+
+.skills h3{
+	text-align: center;
+	text-transform: uppercase;
+	background-color: rgba(54, 56, 55, 0.28);
+	color: white;
+	padding: 10px 10px;
+}
+
+.intro_column {
+	float:right;
+}
+
+.intro_column a:hover{
+	color:#34495e;
+}
+.skills_column {
+	float:right;
+	width:100%;
+	text-align: center;
+}
+@media (max-width: 480px) {
+	body {
+		background-image: none;
+		color: white;
+		background-color: #181A1F;
+
+
