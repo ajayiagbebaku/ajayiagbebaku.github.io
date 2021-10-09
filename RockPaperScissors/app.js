@@ -30,7 +30,7 @@ function lose(userChoice, computerChoice) {
     computerScore++;
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
-    result_p.innerHTML = convertToWord(userChoice) + " loses " + convertToWord(computerChoice) + " You lose! Loser!! ";
+    result_p.innerHTML = convertToWord(userChoice) + " loses to " + convertToWord(computerChoice) + " You lose! Loser!! ";
 }
 
 function draw(userChoice, computerChoice) {
@@ -50,12 +50,12 @@ function game(userChoice) {
         case "rp":
         case "ps":
         case "sr":
-            lose();
+            lose(userChoice, computerChoice);
             break;
         case "rr":
         case "pp":
         case "ss":
-            draw();
+            draw(userChoice, computerChoice);
             break;
 
     }
